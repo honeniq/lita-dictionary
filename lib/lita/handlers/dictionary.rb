@@ -4,7 +4,8 @@ module Lita
       route %r{j2e}, :j2e, command: true, help: {
         "j2e" => "Translate a japanese word to english"}
       
-      def j2e()
+      def j2e(response)
+        response.reply("Apple")
       end
     end
 

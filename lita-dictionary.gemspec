@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-dictionary"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["honeniq"]
   spec.email         = ["honeniq@gmail.com"]
   spec.description   = "Japanese to English look up handler for Lita"

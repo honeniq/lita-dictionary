@@ -8,12 +8,15 @@ describe Lita::Handlers::Dictionary, lita_handler: true do
   describe "j2e command" do
     it "replies to a j2e command" do
       send_command("j2e りんご")
-      expect(replies.last).to eq("Apple")
+      expect(replies.last).to include("apple")
     end
   end
 
   describe "#translate_jp2en" do
-    
+    #let(:dict) { Lita::Handlers::Dictionary.new }
+    #example "りんご -> Apple" do
+    #  expect(replies.last).to eq "Apple"
+    #end
   end
 
   describe "#dejizoitem" do
